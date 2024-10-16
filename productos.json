@@ -18,6 +18,24 @@
       "etiqueta": "Nueva temporada",
       "imagen": "img/Lente.webp",
       "imagenHover": "img/lenteHover.webp"
+    },
+    {
+      "id": 3,
+      "nombre": "Zegna",
+      "descripcion": "camisa Alba",
+      "precio": "$2,600",
+      "etiqueta": "Nueva temporada",
+      "imagen": "img/Zegna.webp",
+      "imagenHover": "img/ZegnaHover.webp"
+    },
+    {
+      "id": 4,
+      "nombre": "Marine Serre",
+      "descripcion": "tenis MS-Rise",
+      "precio": "$563",
+      "etiqueta": "Nueva temporada",
+      "imagen": "img/MarineSerre.webp",
+      "imagenHover": "img/MarineSerreHover.webp"
     }
   ]
 }

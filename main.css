@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 20px;
+}
+
+.product-card__icon{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+}
+.product-card__img-hover{
+    display: none;
+    cursor: pointer;
+}
+
+.fa-solid{
+    display: none;
+    color: red;
+}
+
+.product-card__content{
+    background-color: #F6F6F6;
+    position: relative;
+}
+.product-card__image img {
+    width: 100%;
+
+}
+.product-card__image {
+    width: 90%;
+    height: 345px;
+    margin: 0 auto;
+    transition: all 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-card {
+    width: 281px;
+    height: 478px;
+    display: flex;
+    flex-direction: column;
+}
+.product-card__tag{
+    margin-top: 10px;
+    color: #B9B9B9;
+    font-family: "Farfetch Basis", "Helvetica Neue", Arial, sans-serif;
+}
+
+.product-card__title{
+    font-size: 16px;
+    font-family: "Farfetch Basis", "Helvetica Neue", Arial, sans-serif;
+
+}
+
+.product-card__description{
+    margin-bottom: 30px;
+    font-family: "Farfetch Basis", "Helvetica Neue", Arial, sans-serif;
+
+}
+
+.product-card__price{
+    font-family: "Farfetch Basis", "Helvetica Neue", Arial, sans-serif;
+
+}
+
+
+.product-card__image:hover .product-card__img{
+    display: none;
+    transition: all 0.3s ease;
+}
+
+.product-card__image:hover .product-card__img-hover{
+    display:block;
+    padding-bottom: 4px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+
+.product-card__icon {
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.product-card__icon:hover .fa-regular {
+    display: none;
+}
+
+.product-card__icon:hover .fa-solid {
+    display: block;
+}
+

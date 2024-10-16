@@ -1,0 +1,23 @@
+
+{
+  "productos": [
+    {
+      "id": 1,
+      "nombre": "Burberry",
+      "descripcion": "chamarra a cuadros",
+      "precio": "$1,854",
+      "etiqueta": "Nueva temporada",
+      "imagen": "img/burberry.webp",
+      "imagenHover": "img/burberryModel.webp"
+    },
+    {
+      "id": 2,
+      "nombre": "Versace Eyewear",
+      "descripcion": "lentes de sol con armazón cuadrada",
+      "precio": "$321",
+      "etiqueta": "Nueva temporada",
+      "imagen": "img/Lente.webp",
+      "imagenHover": "img/lenteHover.webp"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+.tendencia {
+    width: 100%;
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.tendencias__titulo {
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.tendencias {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.tendencias__imagen {
+    flex: 1;
+    position: relative;
+    overflow: hidden;
+}
+
+.tendencias__imagen-hover {
+    position: relative;
+    overflow: hidden;
+}
+
+.tendencias__foto {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.tendencias__imagen:hover .tendencias__foto {
+    transform: scale(1.05);
+}
+
+.tendencias__descripcion {
+    position: absolute;
+    bottom: 50%;
+    left: 25%;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.6);
+
+    
+}
+.tendencias__descripcion--centrado{
+    position: absolute;
+    bottom: 50%;
+    left: 15%;
+
+}
+
+.tendencias__descripcion--centrado{
+    position: absolute;
+    bottom: 50%;
+    left: 20%;
+}

@@ -1,0 +1,47 @@
+.novedades{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1180px;
+    margin: 0 auto;
+    margin-bottom: 0px;
+}
+
+.novedades__titulo{
+    font-size: 1.2rem;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+}
+
+.novedades__enlace{
+    padding: 5px 20px;
+    border: 1px solid #000;
+    color: #000;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.novedades2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1180px;
+    margin: 0 auto;
+    margin-bottom: 0px;
+}
+
+.novedades2__titulo{
+    font-size: 1.2rem;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+}
+
+.novedades2__enlace{
+    padding: 5px 20px;
+    border: 1px solid #000;
+    color: #000;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: 600;
+}

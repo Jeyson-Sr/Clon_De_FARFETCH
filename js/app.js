@@ -1,11 +1,11 @@
 
-function cargarProductos() {
+function cargarProductos(containerId, productosKey) {
     fetch('productos.json')
         .then(response => response.json())
         .then(datos => {
-            const contenedor = document.getElementById('productContainer');
+            const contenedor = document.getElementById(containerId);
             
-            datos.productos.forEach(producto => {
+            datos[productosKey].forEach(producto => {
                 const tarjeta = `
                     <div class="product-card">
                         <div class="product-card__content">
@@ -32,5 +32,8 @@ function cargarProductos() {
         .catch(error => console.error('Error al cargar los productos:', error));
 }
 
-// Llamar a la función cuando se carga la página
-window.onload = cargarProductos;
+// Cargar ambos conjuntos de productos cuando se carga la página
+window.onload = function() {
+    cargarProductos('productContainer1', 'productos1');
+    cargarProductos('productContainer2', 'productos2');
+};

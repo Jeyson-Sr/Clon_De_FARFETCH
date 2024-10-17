@@ -2,7 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+img{
+    width: 100%;
 }
 
 .container{
@@ -56,23 +60,23 @@
 .product-card__tag{
     margin-top: 10px;
     color: #B9B9B9;
-    font-family: "Farfetch Basis", "Helvetica Neue", Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 .product-card__title{
     font-size: 16px;
-    font-family: "Farfetch Basis", "Helvetica Neue", Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
 
 }
 
 .product-card__description{
     margin-bottom: 30px;
-    font-family: "Farfetch Basis", "Helvetica Neue", Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
 
 }
 
 .product-card__price{
-    font-family: "Farfetch Basis", "Helvetica Neue", Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
 
 }
 
@@ -102,4 +106,3 @@
 .product-card__icon:hover .fa-solid {
     display: block;
 }
-

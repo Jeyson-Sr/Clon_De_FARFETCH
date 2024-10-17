@@ -1,6 +1,6 @@
 
 {
-  "productos": [
+  "productos1": [
     {
       "id": 1,
       "nombre": "Burberry",
@@ -36,6 +36,44 @@
       "etiqueta": "Nueva temporada",
       "imagen": "img/MarineSerre.webp",
       "imagenHover": "img/MarineSerreHover.webp"
+    }
+  ],
+  "productos2": [
+    {
+      "id": 5,
+      "nombre": "Valentino Garavani",
+      "descripcion": "suéter tejido con cuello en V",
+      "precio": "$1,833",
+      "etiqueta": "Nueva temporada",
+      "imagen": "img/sueterAzul.webp",
+      "imagenHover": "img/sueterAzulHover.webp"
+    },
+    {
+      "id": 6,
+      "nombre": "Valentino Garavani",
+      "descripcion": "camisa con cuello en contraste",
+      "precio": "$811",
+      "etiqueta": "Nueva temporada",
+      "imagen": "img/sueterBlanco.webp",
+      "imagenHover": "img/sueterBlancoHover.webp"
+    },
+    {
+      "id": 7,
+      "nombre": "Valentino Garavani",
+      "descripcion": "pantalones con bolsillos",
+      "precio": "$811",
+      "etiqueta": "Nueva temporada",
+      "imagen": "img/pantalonesNegros.webp",
+      "imagenHover": "img/pantalonesNegrosHover.webp"
+    },
+    {
+      "id": 8,
+      "nombre": "Valentino Garavani",
+      "descripcion": "mocasines Sign con apliques",
+      "precio": "$921",
+      "etiqueta": "Nueva temporada",
+      "imagen": "img/mocasines.webp",
+      "imagenHover": "img/mocasinesHover.webp"
     }
   ]
 }

@@ -30,7 +30,7 @@ img{
 
 .fa-solid{
     display: none;
-    color: red;
+    color: rgb(0, 0, 0);
 }
 
 .product-card__content{
@@ -88,7 +88,6 @@ img{
 
 .product-card__image:hover .product-card__img-hover{
     display:block;
-    padding-bottom: 4px;
     transition: all 0.3s ease;
     cursor: pointer;
 }
@@ -105,4 +104,5 @@ img{
 
 .product-card__icon:hover .fa-solid {
     display: block;
+    padding-top: 4px;
 }

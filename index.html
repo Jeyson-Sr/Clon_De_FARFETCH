@@ -13,9 +13,56 @@
     <link rel="stylesheet" href="css/pasarela.css">
     <link rel="stylesheet" href="css/novedades.css">
     <link rel="stylesheet" href="css/tendencia.css">
+    <link rel="stylesheet" href="css/ayudas.css">
+    <link rel="stylesheet" href="css/subscription.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/header.css">
     <title>Productos Dinámicos</title>
 </head>
 <body>
+    <header class="header">
+        <div class="content_top--footer">
+          <div class="header__top">
+            <ul class="header__top-list">
+                <li class="header__top-item"><a href="#" class="header__top-link">Moda para mujer</a></li>
+                <li class="header__top-item"><a href="#" class="header__top-link active">Moda para hombre</a></li>
+                <li class="header__top-item"><a href="#" class="header__top-link">Moda infantil</a></li>
+            </ul>
+        </div>
+        <div class="header__logo">
+                <h1>FARFETCH</h1>
+        </div>
+        <div class="header__icons">
+                <i class="fas fa-globe"></i>
+                <i class="fas fa-user"></i>
+                <i class="fas fa-heart"></i>
+                <i class="fas fa-shopping-bag"></i>
+            </div>
+        </div>
+        <div class="header__main">
+            <nav class="header__nav">
+                <ul class="header__nav-list">
+                    <li class="header__nav-item"><a href="#" class="header__nav-link">Regalos</a></li>
+                    <li class="header__nav-item"><a href="#" class="header__nav-link">Novedades</a></li>
+                    <li class="header__nav-item"><a href="#" class="header__nav-link">Marcas</a></li>
+                    <li class="header__nav-item"><a href="#" class="header__nav-link">Ropa</a></li>
+                    <li class="header__nav-item"><a href="#" class="header__nav-link">Zapatos</a></li>
+                    <li class="header__nav-item"><a href="#" class="header__nav-link">Tenis</a></li>
+                    <li class="header__nav-item"><a href="#" class="header__nav-link">Bolsas</a></li>
+                    <li class="header__nav-item"><a href="#" class="header__nav-link">Accesorios</a></li>
+                    <li class="header__nav-item"><a href="#" class="header__nav-link">Relojes</a></li>
+                    <li class="header__nav-item"><a href="#" class="header__nav-link">Artículos para el hogar</a></li>
+                    <li class="header__nav-item"><a href="#" class="header__nav-link highlight">Rebajas</a></li>
+                </ul>
+            </nav>
+            <div class="header__search">
+                    <input type="text" placeholder="Buscar">
+                    <i class="fas fa-search"></i>
+            </div>
+        </div>
+        
+    </header>
+
     <div class="novedades">
         <h3 class="novedades__titulo">Novedades de las mejores marcas y boutiques del mundo</h3>
         <a href="#" class="novedades__enlace">Explora más</a>
@@ -88,7 +135,7 @@
                 <div class="tendencias__imagen-hover">
                     <img src="img/SUETERES_Y_PRENDAS_TEJIDAS.webp" class="tendencias__foto" alt="Modelo Valentino Garavani">
                 </div>
-                <p class="tendencias__descripcion tendencias__descripcion--centrado">SUÉTERES Y PRENDAS TEJIDAS</p>
+                <p class="tendencias__descripcion tendencias__descripcion--centradoSUETERES">SUÉTERES Y PRENDAS TEJIDAS</p>
             </div>
 
             <div class="tendencias__imagen">
@@ -99,6 +146,137 @@
             </div>
         </div>
     </div>
+
+    <div class="ayudas">
+        <div class="ayuda">
+        <i class="fi fi-ss-clothes-hanger"></i>
+        <h4 class="ayuda__titulo">Cómo realizar una compra</h4>
+        <p class="ayuda__descripcion">Tu guía para hacer pedidos</p>
+      </div>
+      
+      <div class="ayuda">
+        <i class="fi fi-rr-interrogation"></i>
+        <h4 class="ayuda__titulo">Preguntas Frecuentes</h4>
+        <p class="ayuda__descripcion">¡Respondemos tus preguntas!</p>
+      </div>
+      
+      <div class="ayuda">
+        <i class="fi fi-rs-messages"></i>
+        <h4 class="ayuda__titulo">¿Necesitas ayuda?</h4>
+        <p class="ayuda__descripcion">Contacta a nuestro equipo de Atención al Cliente</p>
+      </div>
+        </div>
+        
+
+
+
+
+        <div class="subscription-section">
+            <div class="left">
+                <h2>NO TE PIERDAS DE NADA</h2>
+                <p>
+                    Regístrate para recibir promociones, novedades personalizadas, actualizaciones de stock y mucho más, 
+                    directamente en tu bandeja de entrada.
+                </p>
+            </div>
+            <div class="right">
+                <h3>RECIBIR ACTUALIZACIONES POR</h3>
+                <form class="subscription-form">
+                    <div class="checkbox-group">
+                        <input type="checkbox" id="email-updates">
+                        <label for="email-updates">Correo electrónico</label>
+                    </div>
+        
+                    <!-- Este campo de correo se mostrará solo cuando se marque el checkbox de correo -->
+                    <input type="email" id="email-input" placeholder="Tu correo electrónico" class="email-input hidden">
+        
+                    <div class="checkbox-group">
+                        <input type="checkbox" id="sms-updates">
+                        <label for="sms-updates">SMS</label>
+                    </div>
+        
+                    <!-- Este campo de teléfono se mostrará solo cuando se marque el checkbox de SMS -->
+                    <div id="phone-input-container" class="hidden">
+                        <div class="phone-input-group">
+                            <select class="country-code">
+                                <option value="+51">🇵🇪 +51</option>
+                                <!-- Agrega más códigos de país si es necesario -->
+                            </select>
+                            <input type="tel" placeholder="Número de teléfono" class="phone-input">
+                        </div>
+                    </div>
+        
+                    <button type="submit">Suscríbete</button>
+        
+                    <p class="disclaimer">
+                        Al registrarte, aceptas recibir comunicaciones de marketing por email o SMS y reconoces que leíste 
+                        nuestra <a href="#">Política de Privacidad</a>. Puedes darte de baja en cualquier momento.
+                    </p>
+                </form>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="footer__container">
+                <div class="footer__section footer__section--customer">
+                    <h4 class="footer__title">Atención al Cliente</h4>
+                    <ul class="footer__list">
+                        <li class="footer__item"><a href="#" class="footer__link">Ayuda y contactos</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">Preguntas Frecuentes</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">Pedidos y envíos</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">Límites de importación</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">Devoluciones y reembolsos</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">Pagos y precios</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">Pagos con criptomoneda</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">Términos y Condiciones de la Promoción</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">Compromiso de FARFETCH con el cliente</a></li>
+                    </ul>
+                </div>
+                <div class="footer__section footer__section--about">
+                    <h4 class="footer__title">Acerca de FARFETCH</h4>
+                    <ul class="footer__list">
+                        <li class="footer__item"><a href="#" class="footer__link">Acerca de nosotros</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">Partners de FARFETCH</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">Trabaja con nosotros</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">App de FARFETCH</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">Declaración sobre la Esclavitud Moderna</a></li>
+                    </ul>
+                </div>
+                <div class="footer__section footer__section--membership">
+                    <h4 class="footer__title">Descuentos y membresía</h4>
+                    <ul class="footer__list">
+                        <li class="footer__item"><a href="#" class="footer__link">Programa de afiliados</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">Programa de Lealtad</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">Descuento para estudiantes UNiDAYS</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">Student Beans y Graduados</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">Descuento para estudiantes y jóvenes</a></li>
+                    </ul>
+                    <div class="footer__section footer__section--social">
+                        <h4 class="footer__title">Síguenos</h4>
+                        <ul class="footer__social-icons">
+                            <li class="footer__social-item"><a href="#" class="footer__social-link"><i class="fab fa-instagram"></i></a></li>
+                            <li class="footer__social-item"><a href="#" class="footer__social-link"><i class="fab fa-facebook-f"></i></a></li>
+                            <li class="footer__social-item"><a href="#" class="footer__social-link"><i class="fab fa-pinterest"></i></a></li>
+                            <li class="footer__social-item"><a href="#" class="footer__social-link"><i class="fab fa-twitter"></i></a></li>
+                            <li class="footer__social-item"><a href="#" class="footer__social-link"><i class="fab fa-snapchat"></i></a></li>
+                            <li class="footer__social-item"><a href="#" class="footer__social-link"><i class="fab fa-youtube"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <ul class="footer__bottom-list">
+                    <li class="footer__bottom-item"><a href="#" class="footer__bottom-link">Política de Privacidad</a></li>
+                    <li class="footer__bottom-item"><a href="#" class="footer__bottom-link">Términos y Condiciones</a></li>
+                    <li class="footer__bottom-item"><a href="#" class="footer__bottom-link">Accesibilidad</a></li>
+                    <li class="footer__bottom-item"><a href="#" class="footer__bottom-link">Mapa del sitio</a></li>
+                    <li class="footer__bottom-item"><a href="#" class="footer__bottom-link">Protección de la propiedad intelectual</a></li>
+                </ul>
+                <p class="footer__copyright">© Clon a mejorar de FARFETCH.</p>
+            </div>
+        </footer>
+        
+    
 
     <script src="js/app.js"></script>
 </body>

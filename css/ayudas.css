@@ -1,0 +1,47 @@
+@import url('https://cdn-uicons.flaticon.com/2.6.0/uicons-solid-straight/css/uicons-solid-straight.css');
+@import url('https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-rounded/css/uicons-regular-rounded.css');
+@import url('https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-straight/css/uicons-regular-straight.css');
+
+
+.ayudas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 50px;
+
+}
+  
+  
+.ayuda {
+      width: 385px; /* Ajusta el ancho del contenedor */
+      height: 150px;
+      padding: 20px;
+      border: 1px solid #ddd; /* Borde del contenedor */
+      background-color: #fff; /* Fondo gris claro */
+      text-align: left;
+  }
+  
+.ayuda:hover{
+    background-color: #F5F5F5;
+    cursor: pointer;
+  }
+  
+.fi-ss-clothes-hanger .fi-rr-interrogation .fi-rs-messages{
+      font-size: 24px; /* Tamaño del ícono */
+      margin-bottom: 10px;
+  }
+  
+.ayuda__titulo{
+      font-size: 16px; /* Tamaño del título */
+      font-weight: bold;
+      margin: 10px 0;
+      text-transform: uppercase; /* Texto en mayúsculas */
+  }
+  
+.ayuda__descripcion{
+      font-size: 14px; /* Tamaño del texto */
+      color: #555; /* Color del texto */
+      margin: 0;
+  }

@@ -16,7 +16,7 @@
 .tendencias {
     display: flex;
     justify-content: space-between;
-    gap: 20px;
+    gap: 30px;
 }
 
 .tendencias__imagen {
@@ -28,6 +28,10 @@
 .tendencias__imagen-hover {
     position: relative;
     overflow: hidden;
+}
+
+.tendencias__imagen-hover{
+    width: 300px;
 }
 
 .tendencias__foto {
@@ -59,8 +63,8 @@
 
 }
 
-.tendencias__descripcion--centrado{
+.tendencias__descripcion--centradoSUETERES{
     position: absolute;
     bottom: 50%;
-    left: 20%;
+    left: 15%;
 }
